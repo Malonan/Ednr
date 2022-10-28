@@ -2,13 +2,13 @@
 This is the GUI version of CyberGet, which is currently under development.
 
  
-| Platform      |    Supported distributions    | State              |
-| --------------|------------------------------ | ------------------ |
-| Windows       | AMD64/ARM64 Windows10+        |  In development    |
-| Linux         | AMD64/ARM64 4.15.0+           |  Wait for scroll   |
-| MacOS         | AMD64/ARM64 MacOS 11+         |  Wait for scroll   |
-| Android       | AMD64/ARM64 Android9+           |  Wait for scroll   |
-| IOS           | <strong>not support</strong>  |  not support       |
+| Platform      |    Supported distributions    |         State      |             technology          |
+| --------------|------------------------------ | ------------------ |-------------------------------- |
+| Windows       | AMD64/ARM64 Windows10+        |  In development    |    React(WebView2) + Golang     |
+| Linux         | AMD64/ARM64 4.15.0+           |  Wait for scroll   |    React(libwebkit) + Golang    |
+| MacOS         | AMD64/ARM64 MacOS 11+         |  Wait for scroll   |    React + Golang               |
+| Android       | AMD64/ARM64 Android9+         |  Wait for scroll   |    Kotlin + Golang(Gomobile)    |
+| IOS           | <strong>not support</strong>  |  not support       |                                 |
  
 <br>
 The reason for waiting to roll is because each platform uses different technologies and they need to be adapted. Some platforms may not have full support, the table below lists these reasons.
